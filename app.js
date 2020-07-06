@@ -121,11 +121,11 @@ function quizOver() {
 function quizResult() {
   if (correctAnswers < quiz.length / 2 - 1) {
     reaction.innerHTML =
-      "YOUR SCHOOL FEES NA WASTE!! &#128532;";
+      "DON'T SHOW THIS RESULT TO YOUR PARENTS!!! &#128532;";
   } else if (correctAnswers <= quiz.length / 2) {
     reaction.innerHTML = "YOU COULDN'T REACH ABOVE HALF, TRY AGAIN! &#128530; ";
   } else if (correctAnswers == quiz.length) {
-    reaction.innerHTML = "YOU'RE TOO MUCH, WELL DONE! &#128170; ";
+    reaction.innerHTML = "YOU'RE TOO MUCH, WELL DONE!!! &#128170; ";
   }
   resultBox.querySelector(".total-question").innerHTML = quiz.length;
   resultBox.querySelector(".total-attempt").innerHTML = attempt;
